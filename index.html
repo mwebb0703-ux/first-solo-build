@@ -10,6 +10,47 @@
   <script src="index.js"></script>
 </head>
 <body>
+  <section ID="landing">
+    <nav>
+      <div class="nav__container">
+        <img class="logo" src="assets/Treact logo.svg" alt="Treact logo">
+        <ul class="nav__links">
+          <li><a href="#" class="nav__link">About</a></li>
+          <li><a href="#" class="nav__link">Blog</a></li>
+          <li><a href="#" class="nav__link">Pricing</a></li>
+          <li><a href="#" class="nav__link">Contact Us</a></li>
+          <li><a href="#" class="nav__link">Login</a></li>
+          <li class="nav__link"><button class="btn__menu"> Sign Up </button></li>
+        </ul>
+        <button class="btn__menu" onclick="openMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+            </li>
+            <li class="menu__list">
+              <a href="#features" class="menu__link" onclick="closeMenu()">Blog</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no-cursor" onclick="closeMenu()">Priceing</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no-cursor" onclick="closeMenu()">Contact Us</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no-cursor" onclick="closeMenu()">Login</a>
+              <li class="menu__list">
+              <a class="menu__link no-cursor" onclick="closeMenu()"><button> Sign Up</button></a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+  </section>
   
 </body>
 </html>
