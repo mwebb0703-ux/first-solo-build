@@ -30,7 +30,7 @@ a{
 
 .nav__container {
   width: 100%;
-  padding: 1.5rem 3rem;
+  padding: 8PX;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,17 +111,6 @@ a{
   transform: all 300ms ease;
 }
 
-.nav__btn--signup {
-  padding: 0.6rem 1.4rem;
-  font-size: 0.95rem;
-  font-weight: 600;
-  border-radius: 6px;
-  border: none;
-  background: #2563eb;
-  color: #fff;
-  cursor: pointer;
-  transition: background 0.25s ease, transform 0.2s ease;
-}
 
 .nav__btn--signup:hover {
   background: #1e4fc7;
